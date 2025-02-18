@@ -62,7 +62,7 @@ Currently, the following operations are supported for lowering in the MxNet dial
 The `linspace` function generates a sequence of evenly spaced numbers over a specified interval. The formula is given by:
 
 $$
-	ext{linspace}(a, b, n) = a + i*((b - a)/(n - 1)) i ∈ (0,1,2.....n-1)
+	linspace(a, b, n) = a + i*((b - a)/(n - 1)) 	where i ∈ (0,1,2.....n-1)
 $$
 
 Where:
@@ -76,9 +76,11 @@ This formula ensures that the generated values are evenly spaced between \( a \)
 ### Softmax Operation
 
 The `softmax` function is used to normalize a tensor into a probability distribution. The formula for the Softmax function is:
+![image](https://github.com/user-attachments/assets/68235292-c0cf-43db-a5e2-a105caa115db)
+
 
 $$
-	ext{softmax}(z_i) = rac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}, \quad 	ext{for} \quad i = 1, 2, \dots, n
+	softmax(x_i) = e^{x_i}/sum_{j=1}^{n} e^{z_j}}, \quad 	ext{for} \quad i = 1, 2, \dots, n
 $$
 
 Where:
