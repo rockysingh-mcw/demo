@@ -57,35 +57,35 @@ Currently, the following operations are supported for lowering in the MxNet dial
 - **Specialized Operations:**
   - `Linspace`: Generates a sequence of evenly spaced values between a specified start and end over a defined number of steps.
 
-### Linspace Operation
-
-The `linspace` function generates a sequence of evenly spaced numbers over a specified interval. The formula is given by:
-
-$$
-	linspace(a, b, n) = a + i*((b - a)/(n - 1)) 	where i ∈ (0,1,2.....n-1)
-$$
-
-Where:
-- \( a \) is the starting value.
-- \( b \) is the ending value.
-- \( n \) is the number of points (or the size of the output array).
-- \( i \) is the index of the points, ranging from \( 0 \) to \( n-1 \).
-
-This formula ensures that the generated values are evenly spaced between \( a \) and \( b \).
-
-### Softmax Operation
-
-The `softmax` function is used to normalize a tensor into a probability distribution. The formula for the Softmax function is:
-				![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
-
-
-Where:
-- \( x_i \) is the input value at index \( i \).
-- \( n \) is the number of elements in the input tensor.
-- \( e^{x_i} \) is the exponential of the input value at index \( i \).
-- The denominator is the sum of the exponentials of all the input values.
-
-The Softmax function converts the input values into probabilities by scaling them so that they sum to 1, which is useful for classification tasks.
+	### Linspace Operation
+	
+	The `linspace` function generates a sequence of evenly spaced numbers over a specified interval. The formula is given by:
+	
+	$$
+		linspace(a, b, n) = a + i*((b - a)/(n - 1)) 	where i ∈ (0,1,2.....n-1)
+	$$
+	
+	Where:
+	- \( a \) is the starting value.
+	- \( b \) is the ending value.
+	- \( n \) is the number of points (or the size of the output array).
+	- \( i \) is the index of the points, ranging from \( 0 \) to \( n-1 \).
+	
+	This formula ensures that the generated values are evenly spaced between \( a \) and \( b \).
+	
+	### Softmax Operation
+	
+	The `softmax` function is used to normalize a tensor into a probability distribution. The formula for the Softmax function is:
+					![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
+	
+	
+	Where:
+	- \( x_i \) is the input value at index \( i \).
+	- \( n \) is the number of elements in the input tensor.
+	- \( exp(x_i) \) is the exponential of the input value at index \( i \).
+	- The denominator is the sum of the exponentials of all the input values.
+	
+	The Softmax function converts the input values into probabilities by scaling them so that they sum to 1, which is useful for classification tasks.
 
 ## Project Structure
 ```
