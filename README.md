@@ -70,7 +70,7 @@ Currently, the following operations are supported for lowering in the MxNet dial
 	
 	The `linspace` function generates a sequence of evenly spaced numbers over a specified interval. The formula is given by:
 
-		![image](https://github.com/user-attachments/assets/14f7472d-6049-4c53-b648-b63bfddff72a)
+	![image](https://github.com/user-attachments/assets/14f7472d-6049-4c53-b648-b63bfddff72a)
 
 	
 	Where:
@@ -85,7 +85,7 @@ Currently, the following operations are supported for lowering in the MxNet dial
 	
 	The `softmax` function is used to normalize a tensor into a probability distribution. The formula for the Softmax function is:
 
-					![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
+	![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
 	
 	
 	Where:
