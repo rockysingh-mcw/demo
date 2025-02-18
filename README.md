@@ -76,19 +76,13 @@ This formula ensures that the generated values are evenly spaced between \( a \)
 ### Softmax Operation
 
 The `softmax` function is used to normalize a tensor into a probability distribution. The formula for the Softmax function is:
-![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
+				![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
 
-![image](https://github.com/user-attachments/assets/68235292-c0cf-43db-a5e2-a105caa115db)
-
-
-$$
-	softmax(x_i) = e^{x_i}/sum_{j=1}^{n} e^{z_j}}, \quad 	ext{for} \quad i = 1, 2, \dots, n
-$$
 
 Where:
-- \( z_i \) is the input value at index \( i \).
+- \( x_i \) is the input value at index \( i \).
 - \( n \) is the number of elements in the input tensor.
-- \( e^{z_i} \) is the exponential of the input value at index \( i \).
+- \( e^{x_i} \) is the exponential of the input value at index \( i \).
 - The denominator is the sum of the exponentials of all the input values.
 
 The Softmax function converts the input values into probabilities by scaling them so that they sum to 1, which is useful for classification tasks.
