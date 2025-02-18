@@ -70,7 +70,7 @@ Currently, the following operations are supported for lowering in the MxNet dial
 	
 	The `linspace` function generates a sequence of evenly spaced numbers over a specified interval. The formula is given by:
 
-	![image](https://github.com/user-attachments/assets/14f7472d-6049-4c53-b648-b63bfddff72a)
+	![image](https://github.com/user-attachments/assets/a1c06f34-6e7b-4dc2-8ff5-311cd369a965)
 
 	
 	Where:
