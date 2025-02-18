@@ -62,7 +62,7 @@ Currently, the following operations are supported for lowering in the MxNet dial
 The `linspace` function generates a sequence of evenly spaced numbers over a specified interval. The formula is given by:
 
 $$
-	ext{linspace}(a, b, n) = a + rac{(b - a)}{n - 1} 	imes i, \quad 	ext{for} \quad i = 0, 1, 2, \dots, n-1
+	ext{linspace}(a, b, n) = a + i*((b - a)/(n - 1)) i ∈ (0,1,2.....n-1)
 $$
 
 Where:
