@@ -76,6 +76,8 @@ This formula ensures that the generated values are evenly spaced between \( a \)
 ### Softmax Operation
 
 The `softmax` function is used to normalize a tensor into a probability distribution. The formula for the Softmax function is:
+![image](https://github.com/user-attachments/assets/187112cf-d94e-4122-b93b-c0c8aeb2fdff)
+
 ![image](https://github.com/user-attachments/assets/68235292-c0cf-43db-a5e2-a105caa115db)
 
 
